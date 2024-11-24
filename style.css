@@ -1,0 +1,79 @@
+/* Global style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #ffe4e1; /* Warna latar pink muda */
+    color: #333;
+}
+
+/* Style untuk form */
+form {
+    max-width: 600px; /* Panjang form */
+    background-color: #ffb6c1; /* Latar form pink */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Pusatkan form */
+    color: #000; /* Warna teks */
+}
+
+/* Style untuk input dan label */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #800000; /* Warna teks label pink gelap */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="file"] {
+    width: 100%; /* Panjang input */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ff69b4; /* Border pink cerah */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Style untuk tombol */
+button {
+    background-color: #ff69b4; /* Warna tombol pink */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c71585; /* Warna tombol saat hover */
+}
+
+/* Style untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffe4e1; /* Warna tabel pink muda */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ff69b4; /* Border tabel pink */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ffb6c1; /* Latar kepala tabel pink */
+    color: #800000; /* Warna teks kepala tabel */
+}
+
+td {
+    color: #333; /* Warna teks sel tabel */
+}
